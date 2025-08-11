@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Express</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu principal -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="reservation.html">Réserver</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+   <h1>Réservation Taxi</h1>
+  <p>Réservez votre trajet en quelques clics.</p>
+
+  <form action="#" method="post">
+
+    <label for="name">Nom complet :</label><br />
+    <input type="text" id="name" name="name" required placeholder="Votre nom complet" /><br /><br />
+
+    <label for="phone">Téléphone :</label><br />
+    <input type="tel" id="phone" name="phone" required placeholder="Ex: 06 12 34 56 78" pattern="[0-9\s]{10,}" /><br /><br />
+
+    <label for="email">Email :</label><br />
+    <input type="email" id="email" name="email" required placeholder="exemple@mail.com" /><br /><br />
+
+    <label for="service">Service :</label><br />
+    <select id="service" name="service" required>
+      <option value="" disabled selected>Choisissez un service</option>
+      <option value="taxi-aeroport">Taxi Aéroport</option>
+      <option value="taxi-vip">Taxi VIP</option>
+      <option value="livraison-colis">Livraison de Colis</option>
+    </select><br /><br />
+
+    <label for="pickup">Adresse de prise en charge :</label><br />
+    <input type="text" id="pickup" name="pickup" required placeholder="Adresse complète" /><br /><br />
+
+    <label for="destination">Destination :</label><br />
+    <input type="text" id="destination" name="destination" required placeholder="Adresse complète" /><br /><br />
+
+    <label for="date">Date :</label><br />
+    <input type="date" id="date" name="date" required /><br /><br />
+
+    <label for="time">Heure :</label><br />
+    <input type="time" id="time" name="time" required /><br /><br />
+
+    <label for="message">Informations supplémentaires :</label><br />
+    <textarea id="message" name="message" rows="4" placeholder="Ex: nombre de passagers, bagages..."></textarea><br /><br />
+
+    <button type="submit">Envoyer la réservation</button>
+
+  </form>
+
+</body>
+</html>

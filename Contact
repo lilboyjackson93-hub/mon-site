@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Express</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu principal -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="reservation.html">Réserver</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</nav>
+
+    <!-- En-tête -->
+    <h1>Contactez-nous</h1>
+    <p>Vous pouvez nous joindre à tout moment pour vos réservations ou pour plus d’informations.</p>
+
+    <!-- Coordonnées -->
+    <h2>Nos coordonnées</h2>
+    <p><strong>Adresse :</strong> 123 Rue de la Gare, 75000 Paris</p>
+    <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+    <p><strong>Email :</strong> contact@taxiexpress.fr</p>
+    <p><strong>Horaires :</strong> 24h/24 et 7j/7</p>
+
+    <!-- Formulaire de contact -->
+    <h2>Formulaire de contact</h2>
+    <form action="#" method="post">
+        <label for="name">Nom complet :</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Téléphone :</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Taxi Express - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
